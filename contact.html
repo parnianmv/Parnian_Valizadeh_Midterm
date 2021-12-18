@@ -1,0 +1,99 @@
+<html>
+<head lang="en">
+	<meta charset="UTF-8"/>
+	<title>Contact Page</title>
+	<link rel="icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./index.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<style>
+		#thisPage{
+			background-color: white; 
+			color: black;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<header>		
+		<img src="enfold.png"/>
+		<div id = "links">
+			<a href="./index.html"> Home</a>
+			<a href="./about.html"> About</a>
+			<a href="./blog.html"> Blog</a>
+			<a href="#" id = "thisPage"> Contact</a>			
+			<a href="#" class="fa fa-twitter" title="Twitter"></a>
+			<a href="#" class="fa fa-dribbble" title="Dribbble"></a>
+			<a href="#" class="fa fa-instagram" title="Instagram"></a>
+		</div>				
+	</header>	
+	<div id = "msg_div">
+		<h1>A little bit about me and how I became the designer I am today </h1>
+	</div>
+
+	
+	<div class="twoSection">
+		<div data-aos="fade-up">
+			<h3>I am located in</h3>
+			<div>
+				<h5>Main Street 1, Williamsville</h5>
+				<sub>Buffalo, USA</sub>
+				<h5>office@enfold-minimal.com</h5>
+				<sub>+555 283 784 333</sub>
+			</div>
+			<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+				Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br/><br/>
+				Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+		</div>
+		
+		<div data-aos="fade-up">
+			<h3>Feel free to drop me a mail</h3>
+			<form>
+				<input type="text" placeholder="Name*" id="name">
+				<input type="email" placeholder="Email*" id="email">
+				<br/>
+				<input type="text" placeholder="Message*" id="messageBox">
+				<br/>
+				<input type="submit" id="submit" value="submit">
+			</form>
+		</div>
+	</div>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>AOS.init({ duration: 1500, once: true, disable: false});</script>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.1597148068695!2d51.4612163151126!3d35.722290380184795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e03ae0ebabc9d%3A0x6dde6721f4527eb7!2sTehran%20Province%2C%20Tehran%2C%20Alipour%2C%20Iran!5e0!3m2!1sen!2s!4v1639838808868!5m2!1sen!2s"  height="450" style="border:0; width:100%" allowfullscreen="" loading="lazy"></iframe>
+	
+	<footer>
+	<div id="contactMedia">		
+		<a href="#" class="fa fa-twitter" title="Follow me on Twitter"></a>		
+		<a href="#" class="fa fa-facebook" title="Follow me on Facebook"></a>		
+		<a href="#" class="fa fa-dribbble" title="Follow me on Dribbble"></a>		
+		<a href="#" class="fa fa-instagram" title="Follow me on Instagram"></a>		
+		<a href="#" class="fa fa-linkedin" title="Follow me on Linkedin"></a>		
+		<a href="#" class="fa fa-envelope" title="Get in touch"></a>
+	</div>
+	</div>
+
+	<span class="fa fa-star"></span>
+		
+
+	<div>
+		<h4> Subscribe </h4>
+		<p> Get our latest news, tips and tricks</p>		
+		<form>
+			<input type="email" placeholder="Email*" id="footerEmail">
+			<input type="submit" value="submit">
+		</form>
+	</div>
+	<div id = "footerEnd">
+		<a href="./about.html" >About</a>
+		<a href="#">Imprint</a>
+		<a href="./contact.html">Contact</a>
+		<a href="#">Privacy Policy</a>
+	</div>
+	<sup>© 2018 Enfold by Kriesi </sup>
+</footer>
+
+</body>
+
+</html>

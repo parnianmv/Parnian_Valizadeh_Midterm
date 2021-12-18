@@ -1,0 +1,234 @@
+/* header config*/
+header{
+	background-color: black;
+	width: 100%;
+	height: 70px;
+}
+
+header div a:hover{
+  background-color: white;
+  color: black;
+}
+
+header div a{
+  padding: 20px 20px 32px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#links{
+	float: right;
+	display: flex;
+	justify-content: right;
+}
+
+header img{
+	height: inherit;
+}
+header .fa { 
+  padding: 17px 10px 5px 10px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.fa-twitter:hover {
+  background: skyblue;
+  color: white;
+}
+.fa-dribbble:hover{
+  background: pink;
+  color: white;
+}
+.fa-instagram:hover{
+  background: blue;
+  color: white;
+}
+
+/* body config*/
+
+/*index message*/
+#message{
+	display: inline;
+}
+#message2{
+	display: inline;
+}
+
+#msg_div{
+	padding: 100px;	
+}
+
+/* index pics config */
+.grid-container {
+  display: grid;
+  grid-template-columns: 290px 290px 290px 290px 290px;
+  padding: 10px;
+  grid-gap: 5px 10px;
+  height: 800px;
+}
+
+.grid-item img{	
+	object-fit: cover;
+	width: 280px;
+	height: 280px;
+	transition: transform .2s;
+}
+
+.grid-item img:hover{
+   transform: scale(1.1);
+}
+
+/* footer */
+
+#contactMedia{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#contactMedia .fa{ 
+  padding: 20px;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+footer{
+	text-align: center;
+	color: gray;
+	margin-top: 100px;
+}
+
+#footerEnd a{
+	font-size: 15px;
+	text-decoration: none;
+	color: grey;
+	margin: 10px;
+}
+
+footer input{
+	height: 50px;
+	border: 2px solid black;
+	width: 100px;
+}
+
+#footerEmail{
+	width: 300px;
+}
+
+
+
+
+/* slider */
+.slideshow-container {
+  position: relative;
+}
+
+.mySlides {
+
+  padding: 80px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.mySlides h3 {
+	margin-left: 70px;
+}
+
+.mySlides i{
+	
+	background-color: black;
+	border-radius: 50%;
+	color: white;
+	padding: 10px;
+}
+
+.mySlides div{
+	background-color: #ebf2ec;
+	box-shadow: 5px 10px 38px gray;
+	padding: 20px;
+}
+
+/* 2 part section */
+.twoSection{
+	display: flex;
+}
+
+.twoSection div {
+	width: 50%;
+	margin: 20px;
+	font-size: 25px;
+}
+
+/* Bar */
+
+.pBar{
+	width: 100%;
+}
+
+/* blog pics config */
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px ;
+  padding: 10px;
+  grid-gap: 10px 10px;
+  height: 800px;
+
+}
+.grid-container2 .grid-item {
+	background-color: #ebf2ec;
+
+}
+
+.grid-container2 .grid-item img{
+	width: 345;
+	height: 250px;
+}
+
+/* contact from*/
+
+#name{
+	height: 50px;
+	width: 50%;
+}
+
+#email{
+	height: 50px;
+	width: 49%;
+}
+
+#messageBox{
+	margin-top: 10px;
+	padding-bottom: 250px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#submit{
+	padding: 25px 50px;
+	background-color: black;
+	color: white;
+}
+
+input{
+	border: 0;
+	background-color: #ebf2ec;
+}

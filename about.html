@@ -1,0 +1,150 @@
+<html>
+<head lang="en">
+	<meta charset="UTF-8"/>
+	<title>About Page</title>
+	<link rel="icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./index.css"/>
+	<script src="./js/slider.js" defer></script>
+	<script src="./js/progress.js" defer></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<style>
+		#thisPage{
+			background-color: white; 
+			color: black;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<header>		
+		<img src="enfold.png"/>
+		<div id = "links">
+			<a href="./index.html"> Home</a>
+			<a href="#" id = "thisPage"> About</a>
+			<a href="./blog.html"> Blog</a>
+			<a href="./contact.html"> Contact</a>			
+			<a href="#" class="fa fa-twitter" title="Twitter"></a>
+			<a href="#" class="fa fa-dribbble" title="Dribbble"></a>
+			<a href="#" class="fa fa-instagram" title="Instagram"></a>
+		</div>				
+	</header>	
+	<div id = "msg_div">
+		<h1>A little bit about me and how I became the designer I am today </h1>
+	</div>
+	
+		<!-- Slideshow container -->
+	<div class="slideshow-container">
+
+	  <!-- Full-width slides/quotes -->
+	  <div class="mySlides">
+		<h3> 1981</h3>
+		<i class="fa fa-user-plus"></i>
+		<div>
+			<h4>Birth </h4>
+			<p> I was born in a small town in Texas called Lorem. Ipsum dolor sit amet, consectetuer adipiscing elitdolor sit. Aenean commodo ligula eget dolor.</p>
+		</div>
+	  </div>
+
+	  <div class="mySlides">
+		<h3> 1991</h3>
+		<i class="fa fa-heart"></i>
+		<div>
+			<h4>First Steps </h4>
+			<p> I took my first steps in enim justo, rhoncus ut, imperdiet a, dolor sit venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+		</div>
+	  </div>
+
+	  <div class="mySlides">
+		<h3> 2001</h3>
+		<i class="fa fa-user-plus" ></i>
+		<div>
+			<h4>College </h4>
+			<p> I started college in 2001. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+		</div>
+	  </div>
+
+	  <!-- Next/prev buttons -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	
+	<div class="twoSection">
+		<div data-aos="fade-up">
+			<h3> What I can do for you </h3>
+			<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+			Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+			Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+		</div>
+		
+		<div data-aos="fade-up">
+			<h3>How i usually work </h3>
+			<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+		</div>
+	</div>
+	<div class="twoSection">
+		<div data-aos="fade-up">
+			<h3> Skills</h3>
+			<p> Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+			<ul>
+				<li>Nullam felis eu pede mollis pretium. </li>
+				<li>Integer tincidunt. Cras dapibusc onsectetuer adipiscing eli. </li>
+				<li>Vivamus elementum semper nisi. </li>
+				<li>Lorem ipsum dolor sit amet. Aenean commodo ligula eget dolor. </li>	
+			</ul>
+			<p> Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+		</div>
+		
+		<div data-aos="fade-up">
+			<h5>LOGO DESIGN</h5>
+			<progress class="pBar" value="100" max="100"></progress>
+			<h5>BRAND DESIGN</h5>
+			<progress class="pBar" value="100" max="100"></progress>
+			<h5>WEB DESIGN</h5>
+			<progress class="pBar" value="80" max="100"></progress>
+			<h5>CONTENT CREATION</h5>
+			<progress class="pBar" value="60" max="100"></progress>
+		</div>
+	</div>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>AOS.init({ duration: 1500, once: true, disable: false});</script>
+	
+
+	<footer>
+	<div id="contactMedia">		
+		<a href="#" class="fa fa-twitter" title="Follow me on Twitter"></a>		
+		<a href="#" class="fa fa-facebook" title="Follow me on Facebook"></a>		
+		<a href="#" class="fa fa-dribbble" title="Follow me on Dribbble"></a>		
+		<a href="#" class="fa fa-instagram" title="Follow me on Instagram"></a>		
+		<a href="#" class="fa fa-linkedin" title="Follow me on Linkedin"></a>		
+		<a href="#" class="fa fa-envelope" title="Get in touch"></a>
+	</div>
+	</div>
+
+	<span class="fa fa-star"></span>
+		
+
+	<div>
+		<h4> Subscribe </h4>
+		<p> Get our latest news, tips and tricks</p>		
+		<form>
+			<input type="email" placeholder="Email*" id="footerEmail">
+			<input type="submit" value="submit">
+		</form>
+	</div>
+	<div id = "footerEnd">
+		<a href="./about.html" >About</a>
+		<a href="#">Imprint</a>
+		<a href="./contact.html">Contact</a>
+		<a href="#">Privacy Policy</a>
+	</div>
+	<sup>© 2018 Enfold by Kriesi </sup>
+</footer>
+</body>
+
+</html>
